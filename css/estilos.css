@@ -4,14 +4,45 @@ body{
 }
 main{
     padding: 20px;
-    background-color: rgba(120, 235, 20, 0.699);
+    background-color: #4EBF6B;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.548);
+    padding-left: 60px;
+    height: 500px;
 }
 h1{
-    margin-top: 100px;
+    margin-top: 50px;
+    font-size: 2.5em;
+    padding-left: 20px;
 }
 h2{
     padding-left: 100px;
 }
-p{
-    padding-left: 40px;
+a{
+    background-color: #315937;
+    color: #5EF283;
+    border-radius: 20px;
+    padding: 2px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    
+}
+a:hover{
+    background-color: #5EF283;
+    color: #261D1D;
+    padding: 4px;
+}
+#Email{
+    background-color: #315937 ;
+    color: #5EF283;
+    width: 360px;
+    padding: 5px;
+    transition-duration: 0.6s;
+}
+#Email:hover{
+    padding: 10px;
+    background-color: #5EF283;
+    color: #261D1D;
+    font-size: 1.1em;
+    width: 400px;
+    transition-duration: 0.5s;
 }
